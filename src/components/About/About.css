@@ -1,0 +1,105 @@
+ /* ----------------------------------- About Us ----------------------------------- */
+
+ .about{
+    display: flex;
+    /* margin-top: 5rem; */
+    margin: 10rem 3rem; 
+    /* flex: 1; */
+    justify-content: space-between;
+    gap: 10rem;
+
+ }
+ .about .about-text h4{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: orange;
+
+ }
+ .about .about-text h2{
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+    /* margin-right: 2rem; */
+
+ }
+.about .about-text p{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+
+}
+.about .about-text ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    margin-bottom: 1.8rem;
+}
+.btn{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 1.8rem;
+    background: orangered;
+    /* text-align: center; */
+    margin-top: 3rem;
+    display: inline-block;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: darkred;
+}
+.about .about-image img{
+    width: 100%;
+    height: 450px;
+    /* padding-right: 100px; */
+    margin-right: 150px;
+    border-radius: 30%;
+    
+}
+/* ABOUT US */
+
+@media (max-width: 768px){
+    .about{
+        flex-direction: column;
+        padding: 60px 7%;
+        gap: 35px;
+
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-text h2{
+        font-size: 36px;
+    }
+    .about-text p{
+        font-size: 17px;
+    }
+    .about-image{
+        width: 80%;
+    }
+}
+@media(max-width: 480px){
+    .about{
+        padding: 50px 6%;
+        gap: 25px;
+
+    }
+    .about-text h4{
+        font-size: 14px;
+    }
+    .about-text h2{
+        font-size: 30px;
+    }
+    .about-text p{
+        font-size: 16px;
+        line-height: 1.6;
+
+    }
+    .about-text ul{
+        padding-bottom: 20px;
+    }
+    .about-image{
+        width: 100%;
+    }
+    .about-text .btn{
+        padding: 12px 25px;
+    }
+}

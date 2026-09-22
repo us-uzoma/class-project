@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* -----------------------------------Universal----------------------------------- */
+:root{
+    font-size: 62.5%;
+    font-family: 'poppins' sans-serif;
+    
+}
+

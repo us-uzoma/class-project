@@ -1,0 +1,160 @@
+
+.gym-image-holder{
+    background-image: url("../../assets/banner.png");
+    background:linear-gradient(rgba (f, f, f, 0.5));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+/* -----------------------------------Navigation----------------------------------- */
+.logo a{
+    font-size: 4.8rem;
+    margin: 3rem;
+    /* padding: 3rem 0; */
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo a span{
+    color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-one{
+    display: flex;
+    font-size: 2rem;
+    list-style: none;
+}
+.nav-bar-one li a{
+    padding: 3px 8px;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: aliceblue;
+    transition: all 0.3s ease;
+}
+.nav-bar-one li a:hover{
+    color: orange;
+    border-bottom: 3px solid aliceblue;
+}
+/* .register{
+    background: orange;
+    color: orange;
+}
+.register:hover{
+    border: 1px solid orange;
+    background: transparent;
+} */
+.test{
+    background-color: red;
+    height:20rem;
+ }
+ /* -----------------------------------Hero Section----------------------------------- */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+}
+ .hero .hero-h1{
+    font-size: 6.2rem;
+    font-weight: 700;
+    color: #fff;
+ }
+ .hero .hero-h1 span{
+    color:red;
+ }
+.hero p{
+    font-size: 1.8rem;
+}
+.hero a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 3rem;
+    background-color: red;
+}
+.hero a:hover{
+    background: transparent;
+    border:1px solid #fff;
+    color: #ff1515;
+    box-shadow: 10px 10px 10px #000;
+}
+
+
+
+ /* HEADER */
+
+@media( max-width: 768px){
+    section header{
+        justify-content: center;
+        height: 60px;
+    }
+    .nav-links-text{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 480px){
+    section header{
+        height: auto;
+        min-height: 60px;
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+    .nav-links-text{
+        padding: 5px 8px;
+    }
+    header .nav-links-text a{
+        font-size: 14px;
+    }
+}
+
+/* HERO SECTION */
+@media(max-width: 768px){
+    .hero{
+        height: 80vh;
+    }
+    .hero-content{
+        width: 90%;
+        min-width: 0;
+    }
+    .hero-content h1{
+        font-size: 32px;
+    }
+    .hero-content p{
+        font-size: 18px;
+    }
+    .hero-content button{
+        padding: 12px 28px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px){
+    .hero{
+        height: 75vh;
+    }
+    .hero-content{
+        width: 90%;
+        min-width: 0;
+    }
+    .hero-content h1{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .hero-content p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .hero-content button{
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+}

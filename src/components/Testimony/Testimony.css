@@ -1,0 +1,106 @@
+/* ----------------------------------- Testimonies ----------------------------------- */
+.testimonials{
+    margin-bottom: 100px;
+    padding: 80px 7.3%;
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+testimonials h4{
+    font-size: 28px;
+    color: blue;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+.testimonials h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+ /* ----------------------------------- Flexbox ----------------------------------- */
+
+.testimonial-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+ /* ----------------------------------- Card ----------------------------------- */
+.testimonial-container .card{
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+
+}
+.testimonial-container .card:hover{
+    transform: scale(1.07);
+    box-shadow: 0.15px 15px 35px rgba(0, 0, 0, .25);
+    cursor: pointer;
+
+}
+.testimonial-container .card img{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    padding-bottom: 20px;
+    border-radius: 5%;
+
+}
+.testimonial-container .card h3{
+    margin-bottom: 15px;
+}
+.testimonial-container .card p{
+    text-align: left;
+    color: #555;
+    line-height: 1.3;
+}
+/* TESTIMONIAL SECTION */
+
+@media(max-width: 768px){
+    .testimonials{
+        padding: 60px 6%;
+    }
+    .testimonials h2{
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .testimonial-container{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .testimonial-container .card{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .testimonial-container .card img{
+        height: 390px;
+    }
+}
+@media(max-width: 480px){
+    .testimonials{
+        padding: 50px 5%;
+    }
+    .testimonials h4{
+        font-size: 14px;
+    }
+    .testimonials h2{
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .testimonial-container{
+        gap: 20px;
+    }
+    .testimonial-container .card{
+        padding: 20px;
+    }
+    .testimonial-container .card img{
+        height: 250px;
+    }
+    .testimonial-container .card h3{
+        font-size: 20px;
+    }
+    .testimonial-container .card p{
+        font-size: 15px;
+    }
+}
