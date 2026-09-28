@@ -1,14 +1,6 @@
 
-.gym-image-holder{
-    background-image: url("../../assets/banner.png");
-    background:linear-gradient(rgba (f, f, f, 0.5));
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    margin: 0 auto;
-}
+
+
 /* -----------------------------------Navigation----------------------------------- */
 .logo a{
     font-size: 4.8rem;
@@ -20,10 +12,11 @@
 .logo a span{
     color: orange;
 }
-nav{
+section header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #000;
 }
 .nav-bar-one{
     display: flex;
@@ -53,39 +46,7 @@ nav{
     background-color: red;
     height:20rem;
  }
- /* -----------------------------------Hero Section----------------------------------- */
-.hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15rem;
-}
- .hero .hero-h1{
-    font-size: 6.2rem;
-    font-weight: 700;
-    color: #fff;
- }
- .hero .hero-h1 span{
-    color:red;
- }
-.hero p{
-    font-size: 1.8rem;
-}
-.hero a{
-    font-size: 2rem;
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 10px;
-    margin-top: 3rem;
-    background-color: red;
-}
-.hero a:hover{
-    background: transparent;
-    border:1px solid #fff;
-    color: #ff1515;
-    box-shadow: 10px 10px 10px #000;
-}
-
+ 
 
 
  /* HEADER */
@@ -95,7 +56,7 @@ nav{
         justify-content: center;
         height: 60px;
     }
-    .nav-links-text{
+    .nav-bar-one{
         padding-right: 8px;
         padding-left: 8px;
     }
@@ -108,53 +69,11 @@ nav{
         flex-wrap: wrap;
         padding: 10px 0;
     }
-    .nav-links-text{
+    .nav-bar-one{
         padding: 5px 8px;
     }
-    header .nav-links-text a{
+    header .nav-bar-one a{
         font-size: 14px;
     }
 }
 
-/* HERO SECTION */
-@media(max-width: 768px){
-    .hero{
-        height: 80vh;
-    }
-    .hero-content{
-        width: 90%;
-        min-width: 0;
-    }
-    .hero-content h1{
-        font-size: 32px;
-    }
-    .hero-content p{
-        font-size: 18px;
-    }
-    .hero-content button{
-        padding: 12px 28px;
-        font-size: 16px;
-    }
-}
-@media (max-width: 480px){
-    .hero{
-        height: 75vh;
-    }
-    .hero-content{
-        width: 90%;
-        min-width: 0;
-    }
-    .hero-content h1{
-        font-size: 25px;
-        margin-bottom: 15px;
-    }
-    .hero-content p{
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
-    .hero-content button{
-        padding: 10px 22px;
-        font-size: 15px;
-    }
-}

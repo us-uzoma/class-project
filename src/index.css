@@ -10,3 +10,144 @@
     
 }
 
+
+/* MEMBERSHIP SCREEN */
+/* HERO SECTION */
+.row{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.row .hero-img{
+    width: 50%;
+    height: 100vh;
+    display: block;
+    padding: 10px;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-col{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    margin-bottom: 30px;
+
+}
+.hero-col img{
+    width: 50px;
+}
+.hero-col img:hover{
+    transform: rotate(15deg);
+
+}
+/* HERO ASIDE */
+.aside h2{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+.aside h1{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+.hero-col-note h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+
+}
+.hero-col-note p{
+    font-size: 14px;
+}
+
+
+/* QUICK TOUR SCREEN */
+/* CALL-TO-ACTION */
+.cta-bg{
+    /* background-color: #F2F2F2; */
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+    
+}
+.cta h1{
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* CTA IMAGE */
+.cta-card img{
+    background-color: #A30B0B;
+    width: 80px;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    /* border: 1px solid #F2F2F2; */
+    border-radius: 20px;
+}
+/* CTA CARD */
+.cta-card{
+    flex-basis: 31%;
+    border: #F2F2F2;
+    border-radius: 20px;
+    padding: 15px 45px;
+    /* background-color: #fff; */
+    margin: auto;
+    box-sizing: border-box;
+    /* box-shadow: 5px 5px 30px 30px #FBFBFD; */
+
+}
+.cta-card:hover{
+    box-shadow: 5px 5px 30px 30px #F2F2F2;
+
+}
+.cta-card h2{
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.cta-card p{
+    line-height: 1.6;
+    font-size: 14px;
+}
+/* CTA SUB */
+.cta-sub{
+    margin: 150px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-sub a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #9C1E1E;
+    padding: 15px 30px;
+    box-shadow: 0 15px 30px 15px #F2F2F2;
+    /* transition: .3s; */
+}
+.cta-sub a:hover{
+    background-color: red;
+    transform: scale(1.1, 1);
+    box-shadow: 10px 25px 30px 15px #EDE2E2;
+}
+.cta-sub-text h1{
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+.cta-sub-text p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
