@@ -7,6 +7,8 @@ import AboutUsScreen from './screens/AboutUsScreen';
 import Footer from './components/Footer/Footer';
 import ContactUsScreen from './screens/ContactScreen'
 import ServicesScreen from './screens/ServicesScreen';
+import LoginScreen from './screens/LoginScreen';
+import SignUpScreen from './screens/SignUpScreen';
 
 
 
@@ -22,6 +24,9 @@ function App() {
         <Route path='/about-us' element={<AboutUsScreen />} />
         <Route path='/contact-us' element={<ContactUsScreen/>} />
         <Route path='/services' element={<ServicesScreen/>} />
+        <Route path='/login' element={<LoginScreen/>} />
+        <Route path='sign-up' element={<SignUpScreen/>} />
+
 
       </Routes>
 

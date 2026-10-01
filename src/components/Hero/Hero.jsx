@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Hero.css"
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
             <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque blanditiis recusandae quo.
             </p>
-            <a href="#">Learn More</a>
+            <Link to='/sign-up'>Get Started</Link>
         </div>
 
        </section>

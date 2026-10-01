@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cta.css'
-
+import { Link } from 'react-router-dom'
 
 const Cta = () => {
   return (
@@ -12,7 +12,7 @@ const Cta = () => {
             <p>
                 Join us today and start learning practical digital skills that can transform your future.
             </p>
-            <a className="cta-button" href="#">Get Started</a>
+            <Link to='/sign-up' className='cta-button'>Get Started</Link>
         </div>
      </section>
     </div>
